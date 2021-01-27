@@ -1,0 +1,51 @@
+h1 {
+    color:cyan;
+    background-color: #ff0000;
+}
+
+h2 {
+    color:#005aff;
+    background-color: #ffa500;
+}
+
+h3{
+    color:rgb(0,0,255);
+    background-color: #ffff00;
+}
+
+h4{
+    color:rgba(255,127,255,1);
+    background-color: #008000;
+}
+
+h5{
+    color:#ffff00;
+    background-color: #0000ff;
+}
+
+h6{
+    color:#b4ff7d;
+    background-color: #4b0082;
+}
+
+p{
+    color:#7fff7f;
+    background-color: #800080;
+}
+
+/* Selects the first child and gives it hot pink text */
+li:first-child{
+    color:hotpink;
+}
+
+/* Selects the last child and gives it a peachpuff colored background */
+li:last-child{
+    background-color: peachpuff;
+}
+
+/* Selects all but the second list item and puts a 5px green solid border around them */
+li:not(:nth-child(2)){
+    border-style:solid;
+    border-width: 5px;
+    border-color: green;
+}
